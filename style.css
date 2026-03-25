@@ -337,7 +337,6 @@ h2 { font-size: clamp(1.6rem, 3.5vw, 2.6rem); }
   font-size: .95rem; color: rgba(255,255,255,.75);
   transition: background var(--transition), color var(--transition);
 }
-.social-icons a:hover { background: var(--rose-dark); color: var(--blanc); }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,.1);
   padding: 18px 24px; text-align: center;
@@ -378,4 +377,47 @@ h2 { font-size: clamp(1.6rem, 3.5vw, 2.6rem); }
 @media (max-width: 480px) {
   .products-grid { grid-template-columns: 1fr; }
   .hero-content h1 { font-size: 2rem; }
+}
+
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+.social-icon {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background: #eee;
+  color: black;
+  transition: 0.3s;
+}
+.social-icon:hover {
+  background: #1877f2;
+  color: white;
+}
+.social-icon {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background: #eee;
+  color: black;
+  transition: 0.3s;
+}
+
+/* Instagram */
+.instagram:hover {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  color: white;
+}
+
+/* TikTok */
+.tiktok:hover {
+  background: #000;
+  color: #25F4EE;
+}
+
+/* WhatsApp */
+.whatsapp:hover {
+  background: #25D366;
+  color: white;
 }
